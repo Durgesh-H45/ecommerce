@@ -30,13 +30,13 @@ export default async function Home() {
   </Button>
 </Link> 
           </div>
-          <Image
-            src={products.data[0].images[0]}
-            alt="Hero Image"
-            className="rounded"
-            width={450}
-            height={450}
-          />
+         <img
+  src={products.data[0].images[0]}
+  alt="Hero Image"
+  width={450}
+  height={450}
+  className="rounded"
+/>
         </div>
       </section>
       <section className="py-8">
